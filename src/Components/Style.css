@@ -1,0 +1,106 @@
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.intro-subheading {
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not visible outside the bounding box */
+  border-right: .15em solid black; /* Creates the caret effect */
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  margin: 0 auto; /* Centers the element */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  color: royalblue;
+}
+.gradiant-text {
+  background: linear-gradient(to top, #3b82f6, #06b6d4); /* Blue to cyan gradient */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Container styles */
+.intro-container {
+    background-color: black;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    flex-direction: row;
+    padding-top: 70px;
+  }
+  
+  /* Heading styles */
+  .intro-heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subheading styles */
+  .intro-subheading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Description styles */
+  .intro-description {
+    color: gray;
+    max-width: 650px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Small Devices */
+  @media (max-width: 640px) {
+    .intro-container {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .intro-heading, .intro-subheading {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .intro-description {
+      font-size: 14px;
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+  
+  /* Medium Devices */
+  @media (max-width: 768px) {
+    .intro-container {
+      height: auto;
+      padding: 12px;
+    }
+  
+    .intro-heading, .intro-subheading {
+      font-size: 32px;
+    }
+  
+    .intro-description {
+      font-size: 16px;
+    }
+  }
+  
+  /* Large Devices */
+  @media (max-width: 1024px) {
+    .intro-heading, .intro-subheading {
+      font-size: 36px;
+    }
+  
+    .intro-description {
+      font-size: 18px;
+    }
+  }
+  
