@@ -5,7 +5,7 @@ import b from './bnk.png'
 
 export const Projects = () => {
   return (
-<div className='bg-black text-white pt-9'>
+<div className='bg-black text-white pt-20'>
         <div className='text-center'>
           <div className='text-gray-400 text-[15px]'>MY WORK</div>
           <div className='font-bold text-[35px]'>PROJECTS</div>

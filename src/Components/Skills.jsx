@@ -11,39 +11,63 @@ export const Skills = () => {
     <div className='bg-black text-white flex flex-col items-center py-10'>
       <h2 className='text-[35px] font-bold mb-8'>SKILLS</h2>
       <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-9 gap-6 sm:gap-8 md:gap-10'>
-        <FaHtml5 size={96} />
-        <FaCss3Alt size={96} />
-        <FaJs size={96} />
-        <FaReact size={96} />
-        <FaNode size={96} />
-        <FaGithub size={96} />
-        <SiExpress size={96} />
-        <RiTailwindCssLine size={96} />
-        <SiMongodb size={96} />
+        <div className='flex flex-col items-center'>
+          <FaHtml5 size={96} />
+          <p className='mt-2'>HTML5</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaCss3Alt size={96} />
+          <p className='mt-2'>CSS3</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaJs size={96} />
+          <p className='mt-2'>JavaScript</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaReact size={96} />
+          <p className='mt-2'>React.js</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaNode size={96} />
+          <p className='mt-2'>Node.js</p>
+        </div>
+       
+        <div className='flex flex-col items-center'>
+          <SiExpress size={96} />
+          <p className='mt-2'>Express.js</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <RiTailwindCssLine size={96} />
+          <p className='mt-2'>Tailwind CSS</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <SiMongodb size={96} />
+          <p className='mt-2'>MongoDB</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaGithub size={96} />
+          <p className='mt-2'>GitHub</p>
+        </div>
       </div>
       <h2 className='text-[30px] mt-10 mb-8 text-gray-300'>TOOLS AND SOFTWARE</h2>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 sm:gap-16 md:gap-20'>
-        <FaChrome size={96} />
-        <FaWindows size={96} />
-        <TbBrandMongodb size={96} />
-        <VscVscodeInsiders size={96} />
+        <div className='flex flex-col items-center'>
+          <FaChrome size={96} />
+          <p className='mt-2'>Chrome</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <FaWindows size={96} />
+          <p className='mt-2'>Windows</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <TbBrandMongodb size={96} />
+          <p className='mt-2'>MongoDB Atlas</p>
+        </div>
+        <div className='flex flex-col items-center'>
+          <VscVscodeInsiders size={96} />
+          <p className='mt-2'>VS Code</p>
+        </div>
       </div>
-      {/* <h2 className='text-[30px] mt-10 mb-8 text-gray-300'>Additional skills</h2>
-      <div className='flex justify-between'>
-        <div>
-          <p className='font-semibold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:left-72  before:mt-1 before:absolute left-5'>Analytical thinking</p>
-        </div>
-        <div>
-          <p>Strong Communication</p>
-        </div>
-        <div>
-          <p>Problem solving</p>
-        </div>
-        <div>
-          <p>Time management</p>
-        </div>
-      </div> */}
-
     </div>
   );
 };
