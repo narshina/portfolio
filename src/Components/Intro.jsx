@@ -3,6 +3,7 @@ import './Style.css'
 import Lottie from 'lottie-react'
 import girl from './gg.json'
 
+
 export const Intro = () => {
   return (
     <div className='intro-container '>
