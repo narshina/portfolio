@@ -11,7 +11,7 @@ export const Skills = () => {
     <div className='bg-black text-white flex flex-col items-center py-10'>
       <h2 className='text-[35px] font-bold mb-8'>SKILLS</h2>
       <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-9 gap-6 sm:gap-8 md:gap-10'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center '>
           <FaHtml5 size={96} />
           <p className='mt-2'>HTML5</p>
         </div>

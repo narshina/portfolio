@@ -27,7 +27,7 @@ export const Navbar = () => {
          <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Projects</div>
   
          <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Skills</div>
-         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Certification</div>
+         {/* <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Certification</div> */}
 
 
         </div>

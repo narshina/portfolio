@@ -10,13 +10,13 @@ export const Contact = () => {
   return (
     <div className='min-h-[600px] bg-black pt-36 flex flex-col items-center text-center'>
       <h1 className='text-white font-bold text-[35px] contact'>CONTACT</h1>
-      <div className='bg-[#06142E] m-auto mt-4 p-6 w-11/12 max-w-[1450px] flex '>
-        <div className='w-full  mb-6 flex '>
-          <div className='h-72 w-72'>
-            <Lottie animationData={ms} size={2}/>
+      <div className='bg-[#06142E] m-auto mt-4 p-6 w-11/12 max-w-[1450px] flex flex-col lg:flex-row items-center'>
+        <div className='w-full mb-6 flex justify-center lg:justify-start'>
+          <div className='h-48 w-48 md:h-80 md:w-80'>
+            <Lottie animationData={ms} />
           </div>
         </div>
-        <div className='text-white text-center text-[20px] w-full max-w-lg'>
+        <div className='text-white text-center lg:text-left text-[20px] w-full max-w-lg'>
           <div className='flex gap-4 items-center justify-start mb-4'>
             <CgProfile size={30} />
             <h2>Narshina K</h2>
