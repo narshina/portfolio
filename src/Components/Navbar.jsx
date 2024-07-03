@@ -22,11 +22,11 @@ export const Navbar = () => {
     </button>
     {nav &&
         <div className='flex flex-wrap gap-6 cursor-pointer'>
-         <button className='bg-black text-white  hover:text-blue-500 rounded-xl '>About</button>
-         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Contact</div>
-         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Projects</div>
+         <button className='bg-black text-white  hover:text-blue-500 rounded-xl '><a href='#about'>About</a></button>
+         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '><a href='#contact'>Contact</a></div>
+         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '><a href='#projects'>Projects</a></div>
   
-         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Skills</div>
+         <div className='bg-black text-white  hover:text-blue-500 rounded-xl '><a href='#skills'>Skills</a></div>
          {/* <div className='bg-black text-white  hover:text-blue-500 rounded-xl '>Certification</div> */}
 
 

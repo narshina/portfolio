@@ -8,7 +8,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export const Contact = () => {
   return (
-    <div className='min-h-[600px] bg-black pt-36 flex flex-col items-center text-center'>
+    <div className='min-h-[600px] bg-black pt-36 flex flex-col items-center text-center ' id='contact'>
       <h1 className='text-white font-bold text-[35px] contact'>CONTACT</h1>
       <div className='bg-[#06142E] m-auto mt-4 p-6 w-11/12 max-w-[1450px] flex flex-col lg:flex-row items-center'>
         <div className='w-full mb-6 flex justify-center lg:justify-start'>
